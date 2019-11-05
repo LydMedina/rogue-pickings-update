@@ -117,24 +117,26 @@ header nav ul li a{
 	float: left;
 }
 .main-title h3 {
-	text-align: left;
+	text-align: center;
 	padding: 5px 0;
 	color: #FFFFFF;
+	
 }
 .main-title p {
 	padding: 0 0 20px 0;
 	font-size: 1em;
 	line-height: 25px;
 	color: #ffffff;
+	text-align: center; 
 }
 
 .section-one,
 .section-two,
 .section-three {
-    height: 252px;
+    height: 275px;
 	width: 100%;
-    float: left;
-    margin: 0 5px;
+    float: left;	
+    margin-bottom: 5px;
     background-color: #ffffff;
     opacity: 75%;
 	
@@ -160,12 +162,14 @@ header nav ul li a{
 .menu li {
 	padding: 10px 0;
 	color:#77a466;
+	text-align: center; 
 }
 
 .reviews {
 	color: #000000;
 	font-size: 1em;
 	line-height: 21px;
+	text-align: center; 
 }
 
 .address {
@@ -199,10 +203,22 @@ footer span {
 		align-items: flex-start;
 	}
 	
+	.main-title h3 {
+		text-align: left;
+	}
+	
+	.main-title p {
+		text-align: left; 
+	}
+	
 	.section-one,
 	.section-two,
 	.section-three {
-		width: 33%;			
+		width: 33%;	
+		margin: 0 5px;
+		height: 375px;
+		
+		
 	}
 }
 
@@ -219,9 +235,25 @@ footer span {
     	padding: 46px 0;
 	}
 	
-		header nav ul li {	
+	header nav ul li {	
 		padding-left: 11px;	
 		display: inline;	
-		}
+	}
+	
+	.main-title h3 {
+		text-align: left;
+	}
+	
+	.main-title p {
+		text-align: left; 
+	}
+	
+	.section-one,
+	.section-two,
+	.section-three {
+		height: 300px;	
+		
+		
+	}
 	
 }
