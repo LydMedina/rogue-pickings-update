@@ -27,7 +27,7 @@ h1,
 h2,
 h3,
 h4 {
-	color: black;
+	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -52,8 +52,7 @@ p {
 
 /*The widths are in a percentage!*/
 header {
-	height: 110px;
-	border-bottom: 3px solid #77a466;
+	height: 110px;	
 	margin: 0 auto;
 	width: 100%;
 }
@@ -89,7 +88,7 @@ header nav ul li {
 }
 header nav ul li a{
 	text-decoration: none;
-	color:#77a466;
+	color:#FFFFFF;
 }
 
 /*The widths are in a percentage!*/
@@ -110,7 +109,7 @@ header nav ul li a{
 }
 .main-image img {
 	width: 100%;
-	border-bottom: 3px solid #77a466;
+	
 }
 
 .main-title {
@@ -120,34 +119,38 @@ header nav ul li a{
 .main-title h3 {
 	text-align: left;
 	padding: 5px 0;
-	color: #77a466;
+	color: #FFFFFF;
 }
 .main-title p {
-	padding: 0;
+	padding: 0 0 20px 0;
 	font-size: 1em;
 	line-height: 25px;
+	color: #ffffff;
 }
 
 .section-one,
 .section-two,
-.section-three {	
-	height: auto;
-	float: left;
-	border-top: 1px solid #eee;
+.section-three {
+    height: 252px;
+	width: 100%;
+    float: left;
+    margin: 0 5px;
+    background-color: #ffffff;
+    opacity: 75%;
+	
 }
 
 .section-one h4 {
 	padding: 10px 0;
-}
-
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
+	text-align: center;
+	color: #000000;
 }
 
 .section-two h4,
 .section-three h4 {
 	padding: 10px 30px;
+	text-align: center;
+	color: #000000;
 }
 
 .menu {
@@ -160,7 +163,7 @@ header nav ul li a{
 }
 
 .reviews {
-	color: #333;
+	color: #000000;
 	font-size: 1em;
 	line-height: 21px;
 }
@@ -168,12 +171,13 @@ header nav ul li a{
 .address {
 	font-size: 1em;
 	line-height: 24px;
+	color: #000000; 
+	text-align: center;
 }
 
 /*The widths are in a percentage!*/
 footer {
-	height: 50px;
-	border-top: 3px solid #eee;
+	height: 50px;	
 	margin: 0 auto;
 	clear: both;
 	text-align: center;
@@ -182,8 +186,8 @@ footer {
 footer span {
 	font-family: 'Wisdom Script', cursive;
 	text-transform: lowercase;
-	color: #77a466;
-	font-size: 0.875em;
+	color: #ffffff;
+	font-size: 0.875em;	
 }
 
 
@@ -198,8 +202,7 @@ footer span {
 	.section-one,
 	.section-two,
 	.section-three {
-		width: 33%;
-	
+		width: 33%;			
 	}
 }
 
