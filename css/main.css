@@ -51,6 +51,14 @@ p {
 }
 
 /*The widths are in a percentage!*/
+
+/* Mobile Navbar */
+
+
+
+/*END Mobile Navbar*/
+
+
 header {
 	height: 110px;	
 	margin: 0 auto;
@@ -70,9 +78,8 @@ header h1 span {
 header nav {
 	float: right;	
 	padding: 20px 0;	
-	width: 100%;
-	
 }
+
 header nav ul {
 	margin: 0;
 	padding: 0;
@@ -89,6 +96,10 @@ header nav ul li {
 header nav ul li a{
 	text-decoration: none;
 	color:#FFFFFF;
+}
+
+.navbar-toggler { /* scss code */
+	background-color: #ffffff; 
 }
 
 /*The widths are in a percentage!*/
@@ -161,7 +172,7 @@ header nav ul li a{
 }
 .menu li {
 	padding: 10px 0;
-	color:#77a466;
+	color:#77a466;	
 	text-align: center; 
 }
 
@@ -195,8 +206,21 @@ footer span {
 }
 
 
-/*tablet media queries*/
+/*  Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */ 
+@media (min-width: 576px) { 
+
+}
+
+
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {	
+	
+	.navbar-toggler-icon {
+		float: right; 
+	}
 	
 	.bottom-section {
 		flex-flow: nowrap;
@@ -216,29 +240,36 @@ footer span {
 	.section-three {
 		width: 33%;	
 		margin: 0 5px;
-		height: 375px;
-		
-		
+		height: 375px;		
 	}
 }
 
-/*desktop media queries*/
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+} 
+
+
+/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 	
+		
 	header, h1 {
 		float: left; 
 	}
 	
-	header nav {
+	header .navbar {
 		float: right;
-    	width: 50%;
+    	width: 37.5%;
     	padding: 46px 0;
 	}
 	
 	header nav ul li {	
-		padding-left: 11px;	
-		display: inline;	
+	padding-left: 11px;	
+	display: inline;	
 	}
+	
 	
 	.main-title h3 {
 		text-align: left;
